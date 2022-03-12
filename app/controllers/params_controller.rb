@@ -4,7 +4,7 @@ class ParamsController < ApplicationController
     render json: {message: "#{input_value.upcase}"}
   end
   def wild_caps
-    input_value = params[:caps]
+    input_value = params[:wildcard]
     render json: {message: "#{input_value.upcase}"}
   end
 end
