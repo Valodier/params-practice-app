@@ -9,6 +9,6 @@ class ParamsController < ApplicationController
   end
   def post_caps
     input_value = params[:wildcard]
-    render json: {message: "#{input_value.upcase}"}
+    render json: {message: input_value.upcase}
   end
 end

@@ -1,2 +1,6 @@
 POST http://localhost:3000/query/wildcard
 Content-Type: application/json
+
+{
+  "input_value" : "wildcard"
+}
