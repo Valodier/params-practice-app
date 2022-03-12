@@ -5,5 +5,6 @@ Rails.application.routes.draw do
   # root "articles#index"
   get "/query" => "params#all_caps"
   get "/query/:wildcard" => "params#wild_caps"
+  post "/query/:wildcard" => "params#post_caps"
 end
   
